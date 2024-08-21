@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/errorTexr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_menuP">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nin" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="319dp"
+        android:layout_height="56dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="sans-serif-black"
+        android:text="Menu"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="46dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/arrow_down_float" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="321dp"
+        android:layout_height="117dp"
+        android:layout_marginBottom="28dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="319dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/holo_blue_light"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Tipos de residuos"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_tipod"
+            android:layout_width="146dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:text="Entrar"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="325dp"
+        android:layout_height="106dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:background="@android:color/holo_blue_light"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Concejos de la App"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_concejos"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:text="Entrar"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="314dp"
+        android:layout_height="118dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.761">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@android:color/holo_blue_light"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Registra tu reciclaje"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="-138dp"
+            tools:layout_editor_absoluteY="274dp" />
+
+        <Button
+            android:id="@+id/btn_registraT"
+            android:layout_width="158dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:text="Entrar"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

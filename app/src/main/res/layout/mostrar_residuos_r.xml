@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="290dp"
+        android:layout_height="213dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/materialr"
+            android:layout_width="247dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:text="Plastico:"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:text="Peso:"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:fontFamily="sans-serif-light"
+                android:inputType="text"
+                android:text="1.5"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="24dp"
+                android:layout_height="20dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Kg"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:text="Precio:"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:fontFamily="sans-serif-light"
+                android:inputType="text"
+                android:text="1000"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView201"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="COP"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Ganancia:"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/gain"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:clickable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:fontFamily="sans-serif-light"
+                android:inputType="text"
+                android:text="1400"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COP"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
