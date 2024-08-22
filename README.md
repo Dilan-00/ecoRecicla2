@@ -12,7 +12,7 @@ EcoRecicla: Es una aplicación móvil diseñada para fomentar y facilitar el rec
 ![logprincipal](https://github.com/user-attachments/assets/ed52aceb-b232-41a7-a500-4f4ff220ccc6)
 
 
-### Registrarse:
+### Registrase:
 ![Registro](https://github.com/user-attachments/assets/41d92f1d-98e0-4639-9fad-c61a9c14e2d6)
 
 ### Menu principal:
@@ -26,5 +26,12 @@ EcoRecicla: Es una aplicación móvil diseñada para fomentar y facilitar el rec
 
 ### Registrar reciclaje:
 ![registrar rr](https://github.com/user-attachments/assets/6c4ae51a-a46b-4e18-a625-4b005f22b3a0)
+
+### Diagrama de flujo:
+![EcoR drawio](https://github.com/user-attachments/assets/5f1fb3a2-a882-4182-b345-1233b4cf75b4)
+
+
+
+
 
 
